@@ -42,7 +42,7 @@
         if (toBack) {
             //make transparent
             self.webView.opaque = NO;
-            self.webView.backgroundColor = [UIColor clearColor];
+            //self.webView.backgroundColor = [UIColor clearColor];
             [self.viewController.view insertSubview:self.cameraRenderController.view atIndex:0];
         }
         else{
